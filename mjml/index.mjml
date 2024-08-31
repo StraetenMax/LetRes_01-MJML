@@ -1,0 +1,58 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>Newsletter Restaurant Mjml</mj-title>
+    <mj-raw>
+      <meta name="color-scheme" content="light"/>
+      <meta name="supported-color-schemes" content="light"/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+      
+    </mj-raw>
+    <mj-attributes>
+      <mj-all font-family="Arial, Helvetica, sans-serif" font-weight="300" font-size="16px" line-height="120%" color="#626262"/>
+      <mj-image border="none"/>
+      <mj-button background-color="#F45E43" color="#ffffff" font-size="14px"></mj-button>
+    </mj-attributes>
+    <mj-breakpoint width="480px"></mj-breakpoint>
+    <mj-style>
+      .heading{
+          padding-top: 15px;
+          text-align: center;
+          font-style: 18px;
+          font-family:"serif"
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#eeeeee">      
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text align="center" font-size="16px" line-height="20px" font-family="serif" padding-top="10px" padding-bottom="10px">Si vous ne parvenez pas à lire cet email cliquez ici </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px" background-color="#ffffff">
+      <mj-column width="40%">
+        <mj-image></mj-image>
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text> </mj-text>
+        <mj-table>
+          <tr> 
+            <td width="80%" style="padding:10px 0">Flamiche au Maroilles et mesclun acidulé</td>
+            <td width="20%" align="right" style="padding:10px 0;vertical-align:top;">10.00 €</td>
+          </tr>
+          <tr>
+            <td width="80%" style="padding:10px 0">Tartare de saumon, aneth et citron</td>
+            <td width="20%" align="right" style="padding:10px 0;vertical-align:top;">9.50 €</td>
+          </tr>
+          <tr> 
+            <td width="75%" style="padding:10px 0">Velouté d'épinard à la Saint-Jacques</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">9.00 €</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
