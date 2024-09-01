@@ -1,22 +1,112 @@
 extends templates/_layout
 //- content
 block content
-    //- Header Text
+    //- Text Reglement
     mj-section(background-color='#ffffff')
         mj-column
             mj-text(align='center' font-size='16px' line-height="20px" font-family='serif' padding-top='10px' padding-bottom='10px') Si vous ne parvenez pas à lire cet email cliquez ici 
-    mj-section(padding="20px" background-color="#ffffff")
-        mj-column(width="40%")
-            mj-image
-        mj-column(width="60%")
+    //- Header
+    mj-section
+        mj-column
+            mj-image( src="https://5xgb2.img.a.d.sendibm1.com/im/sh/IfBxYM56F84m.png?u=7xwQLFBtniwQn1M7ZYUgG6RfSWbH9BT")
+        mj-column
             mj-text 
+    //- Restaurant E Pour débuter
+    mj-section(background-color="#ffffff")
+        mj-column(width="40%")
+            mj-image(padding="0" src="https://i.ibb.co/gZcQP3s/rest03-2024.jpg" alt="" width="480px")
+        mj-column(width="60%")
+            mj-text Pour Débuter
             mj-table
                 tr 
-                    td(width="80%" style="padding:10px 0") Flamiche au Maroilles et mesclun acidulé
-                    td(width="20%" align="right" style="padding:10px 0;vertical-align:top;") 10.00 €
+                    td(width="75%" style="padding:10px 0") Flamiche au Maroilles et mesclun acidulé
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 10.00 €
                 tr
-                    td(width="80%" style="padding:10px 0") Tartare de saumon, aneth et citron
-                    td(width="20%" align="right" style="padding:10px 0;vertical-align:top;") 9.50 €
+                    td(width="75%" style="padding:10px 0") Tartare de saumon, aneth et citron
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 9.50 €
                 tr 
                     td(width="75%" style="padding:10px 0" ) Velouté d'épinard à la Saint-Jacques
                     td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 9.00 €
+    //- Restaurant E Pour Suivre
+    mj-section(background-color="#ffffff")
+        mj-column(width="40%")
+            mj-image(padding="0" src="https://i.ibb.co/dD6kJyT/rest02-2024.jpg" alt="" width="480px")
+        mj-column(width="60%")
+            mj-text Pour Suivre
+            mj-table
+                tr 
+                    td(width="75%" style="padding:10px 0") Estouffade de boeuf bourguignon
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 14.50 €
+                tr
+                    td(width="75%" style="padding:10px 0") Escalope viennoise de veau et pommes macaires
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 14.00 €
+                tr 
+                    td(width="75%" style="padding:10px 0" ) Filet de bar au yuzu
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 13.50 €
+    //- Restaurant E Pour terminer
+    mj-section(background-color="#ffffff")
+        mj-column(width="40%")
+            mj-image(padding="0" src="https://i.ibb.co/mHVQVyH/rest01-2024.jpg" alt="" width="480px")
+        mj-column(width="60%")
+            mj-text Pour Terminer
+            mj-table
+                tr 
+                    td(width="75%" style="padding:10px 0") Assiette gourmande
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 7.00 €
+                tr
+                    td(width="75%" style="padding:10px 0") Coupe de glaces et sorbets
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 5.00 €
+                tr 
+                    td(width="75%" style="padding:10px 0" ) Café ou thé gourmand
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 9.50 €
+                tr 
+                    td(width="75%" style="padding:10px 0" ) Mousse chocolat au lait et noisette
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 7.00 €
+    mj-section
+        mj-column(width="250px")
+            mj-button(width="100%") Réserver une table
+    mj-section
+        mj-column
+            mj-table
+                tr
+                    td Menu je suis attendu
+                    td 17.00 €
+                tr
+                    td Entrée + Plat ou Plat + Dessert
+                tr
+                    td Menu j'ai rendez-vous
+                    td 20.00 €
+                tr
+                    td Entrée + Plat + Dessert
+    mj-section
+        mj-column
+            mj-text Une P'tite faim
+            mj-table
+                tr 
+                    td Plat du jour
+                    td 10.00 €
+                tr 
+                    td Chicken burger sauce tartare duo de chips
+                    td 13.00 €
+                tr
+                    td Tagliatelles fraîches à la Vogolone
+                    td 13.00 €
+                tr
+                    td Salade façon César
+                    td 12.50 €
+    mj-section
+        mj-column
+            mj-text Un P'tit plaisir sucré
+            mj-table
+                tr 
+                    td Plat du jour
+                    td 10.00 €
+                tr 
+                    td Chicken burger sauce tartare duo de chips
+                    td 13.00 €
+                tr
+                    td Tagliatelles fraîches à la Vogolone
+                    td 13.00 €
+                tr
+                    td Salade façon César
+                    td 12.50 €

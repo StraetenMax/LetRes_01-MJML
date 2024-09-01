@@ -32,24 +32,151 @@
         <mj-text align="center" font-size="16px" line-height="20px" font-family="serif" padding-top="10px" padding-bottom="10px">Si vous ne parvenez pas à lire cet email cliquez ici </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="20px" background-color="#ffffff">
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://5xgb2.img.a.d.sendibm1.com/im/sh/IfBxYM56F84m.png?u=7xwQLFBtniwQn1M7ZYUgG6RfSWbH9BT"></mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-text> </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
       <mj-column width="40%">
-        <mj-image></mj-image>
+        <mj-image padding="0" src="https://i.ibb.co/gZcQP3s/rest03-2024.jpg" alt="" width="480px"></mj-image>
       </mj-column>
       <mj-column width="60%">
-        <mj-text> </mj-text>
+        <mj-text>Pour Débuter</mj-text>
         <mj-table>
           <tr> 
-            <td width="80%" style="padding:10px 0">Flamiche au Maroilles et mesclun acidulé</td>
-            <td width="20%" align="right" style="padding:10px 0;vertical-align:top;">10.00 €</td>
+            <td width="75%" style="padding:10px 0">Flamiche au Maroilles et mesclun acidulé</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">10.00 €</td>
           </tr>
           <tr>
-            <td width="80%" style="padding:10px 0">Tartare de saumon, aneth et citron</td>
-            <td width="20%" align="right" style="padding:10px 0;vertical-align:top;">9.50 €</td>
+            <td width="75%" style="padding:10px 0">Tartare de saumon, aneth et citron</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">9.50 €</td>
           </tr>
           <tr> 
             <td width="75%" style="padding:10px 0">Velouté d'épinard à la Saint-Jacques</td>
             <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">9.00 €</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="40%">
+        <mj-image padding="0" src="https://i.ibb.co/dD6kJyT/rest02-2024.jpg" alt="" width="480px"></mj-image>
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text>Pour Suivre</mj-text>
+        <mj-table>
+          <tr> 
+            <td width="75%" style="padding:10px 0">Estouffade de boeuf bourguignon</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">14.50 €</td>
+          </tr>
+          <tr>
+            <td width="75%" style="padding:10px 0">Escalope viennoise de veau et pommes macaires</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">14.00 €</td>
+          </tr>
+          <tr> 
+            <td width="75%" style="padding:10px 0">Filet de bar au yuzu</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">13.50 €</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="40%">
+        <mj-image padding="0" src="https://i.ibb.co/mHVQVyH/rest01-2024.jpg" alt="" width="480px"></mj-image>
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text>Pour Terminer</mj-text>
+        <mj-table>
+          <tr> 
+            <td width="75%" style="padding:10px 0">Assiette gourmande</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">7.00 €</td>
+          </tr>
+          <tr>
+            <td width="75%" style="padding:10px 0">Coupe de glaces et sorbets</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">5.00 €</td>
+          </tr>
+          <tr> 
+            <td width="75%" style="padding:10px 0">Café ou thé gourmand</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">9.50 €</td>
+          </tr>
+          <tr> 
+            <td width="75%" style="padding:10px 0">Mousse chocolat au lait et noisette</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">7.00 €</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="250px">
+        <mj-button width="100%">Réserver une table</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td>Menu je suis attendu</td>
+            <td>17.00 €</td>
+          </tr>
+          <tr>
+            <td>Entrée + Plat ou Plat + Dessert</td>
+          </tr>
+          <tr>
+            <td>Menu j'ai rendez-vous</td>
+            <td>20.00 €</td>
+          </tr>
+          <tr>
+            <td>Entrée + Plat + Dessert</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Une P'tite faim</mj-text>
+        <mj-table>
+          <tr> 
+            <td>Plat du jour</td>
+            <td>10.00 €</td>
+          </tr>
+          <tr> 
+            <td>Chicken burger sauce tartare duo de chips</td>
+            <td>13.00 €</td>
+          </tr>
+          <tr>
+            <td>Tagliatelles fraîches à la Vogolone</td>
+            <td>13.00 €</td>
+          </tr>
+          <tr>
+            <td>Salade façon César</td>
+            <td>12.50 €</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Un P'tit plaisir sucré</mj-text>
+        <mj-table>
+          <tr> 
+            <td>Plat du jour</td>
+            <td>10.00 €</td>
+          </tr>
+          <tr> 
+            <td>Chicken burger sauce tartare duo de chips</td>
+            <td>13.00 €</td>
+          </tr>
+          <tr>
+            <td>Tagliatelles fraîches à la Vogolone</td>
+            <td>13.00 €</td>
+          </tr>
+          <tr>
+            <td>Salade façon César</td>
+            <td>12.50 €</td>
           </tr>
         </mj-table>
       </mj-column>
