@@ -27,17 +27,27 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#eeeeee">      
-    <mj-section background-color="#ffffff">
+    <mj-section background-color="#ffffff" padding-top="5px" padding-bottom="3px">
       <mj-column>
-        <mj-text align="center" font-size="16px" line-height="20px" font-family="serif" padding-top="10px" padding-bottom="10px">Si vous ne parvenez pas à lire cet email cliquez ici </mj-text>
+        <mj-text align="center" font-size="12px" font-weight="400" line-height="16px" font-family="Arial, Helvetica, sans-serif">Si vous ne parvenez pas à lire cet email cliquez ici </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section background-color="#860808">
       <mj-column>
         <mj-image src="https://5xgb2.img.a.d.sendibm1.com/im/sh/IfBxYM56F84m.png?u=7xwQLFBtniwQn1M7ZYUgG6RfSWbH9BT"></mj-image>
       </mj-column>
       <mj-column>
-        <mj-text> </mj-text>
+        <mj-social>
+          <mj-social-element></mj-social-element>
+          <mj-social-element></mj-social-element>
+        </mj-social>
+        <mj-text family="Arial, Helvetica, sans-serif" font-size="19px" font-weight="700" line-height="25px" color="#ffffff" text-transform="uppercase">newsletter 106</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#860808">
+      <mj-column>
+        <mj-text align="center" font-family="Arial, Helvetica, sans-serif" font-size="24px" font-weight="400" line-height="26px" color="#ffffff">Carte de l'Expérientiel</mj-text>
+        <mj-image></mj-image>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff">
@@ -45,7 +55,7 @@
         <mj-image padding="0" src="https://i.ibb.co/gZcQP3s/rest03-2024.jpg" alt="" width="480px"></mj-image>
       </mj-column>
       <mj-column width="60%">
-        <mj-text>Pour Débuter</mj-text>
+        <mj-text font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" line-height="22px" color="#860808">Pour Débuter</mj-text>
         <mj-table>
           <tr> 
             <td width="75%" style="padding:10px 0">Flamiche au Maroilles et mesclun acidulé</td>
@@ -67,7 +77,7 @@
         <mj-image padding="0" src="https://i.ibb.co/dD6kJyT/rest02-2024.jpg" alt="" width="480px"></mj-image>
       </mj-column>
       <mj-column width="60%">
-        <mj-text>Pour Suivre</mj-text>
+        <mj-text font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" line-height="22px" color="#860808">Pour Suivre</mj-text>
         <mj-table>
           <tr> 
             <td width="75%" style="padding:10px 0">Estouffade de boeuf bourguignon</td>
@@ -89,7 +99,7 @@
         <mj-image padding="0" src="https://i.ibb.co/mHVQVyH/rest01-2024.jpg" alt="" width="480px"></mj-image>
       </mj-column>
       <mj-column width="60%">
-        <mj-text>Pour Terminer</mj-text>
+        <mj-text font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" line-height="22px" color="#860808">Pour Terminer</mj-text>
         <mj-table>
           <tr> 
             <td width="75%" style="padding:10px 0">Assiette gourmande</td>
@@ -110,12 +120,12 @@
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section background-color="#ffffff">
       <mj-column width="250px">
-        <mj-button width="100%">Réserver une table</mj-button>
+        <mj-button width="100%" background-color="#860808" href="#">Réserver une table</mj-button>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section background-url="https://i.ibb.co/cbwR4XJ/fond-Matiere.jpg" background-repeat="no-repeat">
       <mj-column>
         <mj-table>
           <tr>
@@ -137,7 +147,7 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-text>Une P'tite faim</mj-text>
+        <mj-text font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" line-height="22px" color="#DC695E">Une P'tite faim</mj-text>
         <mj-table>
           <tr> 
             <td>Plat du jour</td>
@@ -179,6 +189,16 @@
             <td>12.50 €</td>
           </tr>
         </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#860808">
+      <mj-column>
+        <mj-text font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="400" line-height="18px" color="#ffffff">
+          <div>17 place Charles et Albert Roussel</div>
+          <div>59200 Tourcoing</div>
+          <div>tél. 03.20.70.06.06</div>
+          <div>restaurant@ecosup-hotellerie.fr</div>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
