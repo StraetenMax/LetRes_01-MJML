@@ -145,6 +145,12 @@
         </mj-table>
       </mj-column>
     </mj-section>
+    <mj-section background-color="#DC695E">
+      <mj-column>
+        <mj-text align="center" font-family="Arial, Helvetica, sans-serif" font-size="24px" font-weight="400" line-height="26px" color="#ffffff">Carte Sur le Pouce</mj-text>
+        <mj-image></mj-image>
+      </mj-column>
+    </mj-section>
     <mj-section background-color="#ffffff">
       <mj-column width="40%">
         <mj-image padding="0" src="https://i.ibb.co/pjb5dfN/rest04-2024.jpg" alt="" width="480px"></mj-image>
