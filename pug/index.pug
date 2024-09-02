@@ -2,7 +2,7 @@ extends templates/_layout
 //- content
 block content
     //- Text Reglement
-    mj-section(background-color='#ffffff' padding-top='5px' padding-bottom='3px' )
+    mj-section(padding-top='5px' padding-bottom='3px' )
         mj-column
             mj-text(align='center' font-size='12px' font-weight="400" line-height="16px" font-family='Arial, Helvetica, sans-serif') Si vous ne parvenez pas à lire cet email cliquez ici 
     //- Header
@@ -34,7 +34,7 @@ block content
                 tr 
                     td(width="75%" style="padding:10px 0" ) Velouté d'épinard à la Saint-Jacques
                     td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 9.00 €
-    //- Restaurant Expérientiel Pour Suivre
+    //- carte Expérientiel Pour Suivre
     mj-section(background-color="#ffffff")
         mj-column(width="40%")
             mj-image(padding="0" src="https://i.ibb.co/dD6kJyT/rest02-2024.jpg" alt="" width="480px")
@@ -50,7 +50,7 @@ block content
                 tr 
                     td(width="75%" style="padding:10px 0" ) Filet de bar au yuzu
                     td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 13.50 €
-    //- Restaurant E Pour terminer
+    //- carte Expérientiel Pour terminer
     mj-section(background-color="#ffffff")
         mj-column(width="40%")
             mj-image(padding="0" src="https://i.ibb.co/mHVQVyH/rest01-2024.jpg" alt="" width="480px")
@@ -74,9 +74,9 @@ block content
         mj-column(width="250px")
             mj-button(width="100%" background-color="#860808" href="#") Réserver une table
     //- Offre ardoise
-    mj-section(background-url="https://i.ibb.co/cbwR4XJ/fond-Matiere.jpg" background-repeat="no-repeat")
+    mj-section(background-color="#3e3936" background-url="https://i.ibb.co/cbwR4XJ/fond-Matiere.jpg" background-repeat="no-repeat")
         mj-column
-            mj-table
+            mj-table(color="#ffffff" align="center")
                 tr
                     td Menu je suis attendu
                     td 17.00 €
@@ -89,39 +89,43 @@ block content
                     td Entrée + Plat + Dessert
     //- Carte sur le pouce
     //- carte Plats
-    mj-section
-        mj-column
+    mj-section(background-color="#ffffff")
+        mj-column(width='40%')
+            mj-image(padding="0" src="https://i.ibb.co/pjb5dfN/rest04-2024.jpg" alt="" width="480px")
+        mj-column(width='60%')
             mj-text(font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" line-height="22px" color="#DC695E") Une P'tite faim
             mj-table
                 tr 
-                    td Plat du jour
-                    td 10.00 €
+                    td(width="75%" style="padding:10px 0" ) Plat du jour
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 10.00 €
                 tr 
-                    td Chicken burger sauce tartare duo de chips
-                    td 13.00 €
+                    td(width="75%" style="padding:10px 0" ) Chicken burger sauce tartare duo de chips
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 13.00 €
                 tr
-                    td Tagliatelles fraîches à la Vogolone
-                    td 13.00 €
+                    td(width="75%" style="padding:10px 0" ) Tagliatelles fraîches à la Vogolone
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 13.00 €
                 tr
-                    td Salade façon César
-                    td 12.50 €
+                    td(width="75%" style="padding:10px 0" ) Salade façon César
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 12.50 €
     //- carte Desserts
-    mj-section
-        mj-column
-            mj-text Un P'tit plaisir sucré
+    mj-section(background-color="#ffffff")
+        mj-column(width='40%')
+            mj-image(padding="0" src="https://i.ibb.co/s21qqRj/rest05-2024.jpg" alt="" width="480px")
+        mj-column(width='60%')
+            mj-text(font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" line-height="22px" color="#DC695E") Un P'tit plaisir sucré
             mj-table
                 tr 
-                    td Plat du jour
-                    td 10.00 €
+                    td(width="75%" style="padding:10px 0" ) Dessert du jour
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 6.00 €
                 tr 
-                    td Chicken burger sauce tartare duo de chips
-                    td 13.00 €
+                    td(width="75%" style="padding:10px 0" ) Salade de fruits
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 4.50 €
                 tr
-                    td Tagliatelles fraîches à la Vogolone
-                    td 13.00 €
+                    td(width="75%" style="padding:10px 0" ) Café gourmand
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 9.00 €
                 tr
-                    td Salade façon César
-                    td 12.50 €
+                    td(width="75%" style="padding:10px 0" ) Assiette gourmande
+                    td(width="25%" align="right" style="padding:10px 0;vertical-align:top;") 6.50 €
     //- CTA
     //- Footer
     mj-section(background-color="#860808")
@@ -130,4 +134,10 @@ block content
                 div 17 place Charles et Albert Roussel
                 div 59200 Tourcoing
                 div tél. 03.20.70.06.06
-                div restaurant@ecosup-hotellerie.fr
+                div restaurant@ecosup-hotellerie.fr 
+    mj-section
+        mj-column
+            mj-text(align='center' font-size='12px' font-weight="400" line-height="16px" font-family='Arial, Helvetica, sans-serif') Cet e-mail a été envoyé à admission@ecosup-campus.fr, vous l'avez reçu car vous êtes inscrit sur ECOSUP CAMPUS.
+            mj-text(align='center' font-size='12px' font-weight="400" line-height="16px" font-family='Arial, Helvetica, sans-serif') Se désinscrire
+            mj-text(align='center' font-size='12px' font-weight="400" line-height="16px" font-family='Arial, Helvetica, sans-serif') ©2024 ECOSUP CAMPUS
+

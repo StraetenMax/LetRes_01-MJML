@@ -27,7 +27,7 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#eeeeee">      
-    <mj-section background-color="#ffffff" padding-top="5px" padding-bottom="3px">
+    <mj-section padding-top="5px" padding-bottom="3px">
       <mj-column>
         <mj-text align="center" font-size="12px" font-weight="400" line-height="16px" font-family="Arial, Helvetica, sans-serif">Si vous ne parvenez pas à lire cet email cliquez ici </mj-text>
       </mj-column>
@@ -125,9 +125,9 @@
         <mj-button width="100%" background-color="#860808" href="#">Réserver une table</mj-button>
       </mj-column>
     </mj-section>
-    <mj-section background-url="https://i.ibb.co/cbwR4XJ/fond-Matiere.jpg" background-repeat="no-repeat">
+    <mj-section background-color="#3e3936" background-url="https://i.ibb.co/cbwR4XJ/fond-Matiere.jpg" background-repeat="no-repeat">
       <mj-column>
-        <mj-table>
+        <mj-table color="#ffffff" align="center">
           <tr>
             <td>Menu je suis attendu</td>
             <td>17.00 €</td>
@@ -145,48 +145,54 @@
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column>
+    <mj-section background-color="#ffffff">
+      <mj-column width="40%">
+        <mj-image padding="0" src="https://i.ibb.co/pjb5dfN/rest04-2024.jpg" alt="" width="480px"></mj-image>
+      </mj-column>
+      <mj-column width="60%">
         <mj-text font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" line-height="22px" color="#DC695E">Une P'tite faim</mj-text>
         <mj-table>
           <tr> 
-            <td>Plat du jour</td>
-            <td>10.00 €</td>
+            <td width="75%" style="padding:10px 0">Plat du jour</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">10.00 €</td>
           </tr>
           <tr> 
-            <td>Chicken burger sauce tartare duo de chips</td>
-            <td>13.00 €</td>
+            <td width="75%" style="padding:10px 0">Chicken burger sauce tartare duo de chips</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">13.00 €</td>
           </tr>
           <tr>
-            <td>Tagliatelles fraîches à la Vogolone</td>
-            <td>13.00 €</td>
+            <td width="75%" style="padding:10px 0">Tagliatelles fraîches à la Vogolone</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">13.00 €</td>
           </tr>
           <tr>
-            <td>Salade façon César</td>
-            <td>12.50 €</td>
+            <td width="75%" style="padding:10px 0">Salade façon César</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">12.50 €</td>
           </tr>
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-text>Un P'tit plaisir sucré</mj-text>
+    <mj-section background-color="#ffffff">
+      <mj-column width="40%">
+        <mj-image padding="0" src="https://i.ibb.co/s21qqRj/rest05-2024.jpg" alt="" width="480px"></mj-image>
+      </mj-column>
+      <mj-column width="60%">
+        <mj-text font-family="Arial, Helvetica, sans-serif" font-size="18px" font-weight="700" line-height="22px" color="#DC695E">Un P'tit plaisir sucré</mj-text>
         <mj-table>
           <tr> 
-            <td>Plat du jour</td>
-            <td>10.00 €</td>
+            <td width="75%" style="padding:10px 0">Dessert du jour</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">6.00 €</td>
           </tr>
           <tr> 
-            <td>Chicken burger sauce tartare duo de chips</td>
-            <td>13.00 €</td>
+            <td width="75%" style="padding:10px 0">Salade de fruits</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">4.50 €</td>
           </tr>
           <tr>
-            <td>Tagliatelles fraîches à la Vogolone</td>
-            <td>13.00 €</td>
+            <td width="75%" style="padding:10px 0">Café gourmand</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">9.00 €</td>
           </tr>
           <tr>
-            <td>Salade façon César</td>
-            <td>12.50 €</td>
+            <td width="75%" style="padding:10px 0">Assiette gourmande</td>
+            <td width="25%" align="right" style="padding:10px 0;vertical-align:top;">6.50 €</td>
           </tr>
         </mj-table>
       </mj-column>
@@ -197,8 +203,15 @@
           <div>17 place Charles et Albert Roussel</div>
           <div>59200 Tourcoing</div>
           <div>tél. 03.20.70.06.06</div>
-          <div>restaurant@ecosup-hotellerie.fr</div>
+          <div>restaurant@ecosup-hotellerie.fr </div>
         </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" font-size="12px" font-weight="400" line-height="16px" font-family="Arial, Helvetica, sans-serif">Cet e-mail a été envoyé à admission@ecosup-campus.fr, vous l'avez reçu car vous êtes inscrit sur ECOSUP CAMPUS.</mj-text>
+        <mj-text align="center" font-size="12px" font-weight="400" line-height="16px" font-family="Arial, Helvetica, sans-serif">Se désinscrire</mj-text>
+        <mj-text align="center" font-size="12px" font-weight="400" line-height="16px" font-family="Arial, Helvetica, sans-serif">©2024 ECOSUP CAMPUS</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
