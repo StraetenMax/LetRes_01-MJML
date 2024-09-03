@@ -18,8 +18,8 @@
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
       @media (max-width:480px){
-          .al{
-              text-align: center;
+          .al, .al div{
+              text-align: center !important;
           }
       }
     </mj-style>
@@ -30,7 +30,7 @@
         <mj-text align="center" font-size="12px" font-weight="400" line-height="16px" font-family="Arial, Helvetica, sans-serif">Si vous ne parvenez pas à lire cet email cliquez ici </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#860808" padding-left="50px" padding-right="50px" padding-bottom="0">
+    <mj-section background-color="#860808" padding-left="25px" padding-right="25px" padding-bottom="0">
       <mj-column with="50%">
         <mj-image width="200px" src="https://5xgb2.img.a.d.sendibm1.com/im/sh/IfBxYM56F84m.png?u=7xwQLFBtniwQn1M7ZYUgG6RfSWbH9BT"></mj-image>
       </mj-column>
@@ -41,9 +41,14 @@
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#860808" padding="0 50px">
+    <mj-section background-color="#860808" padding="0 35px 20px 35px">
       <mj-column>
-        <mj-text css-class="al" font-family="Arial, Helvetica, sans-serif" font-size="19px" font-weight="700" line-height="25px" color="#ffffff" text-transform="uppercase">newsletter 106</mj-text>
+        <mj-text css-class="al" font-family="Arial, Helvetica, sans-serif" font-size="19px" font-weight="700" line-height="25px" color="#ffffff" text-transform="uppercase">newsletter 106 | <span css-class="al" style="font-weight: 300">septembre 2024</span></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px"></mj-spacer>
       </mj-column>
     </mj-section>
     <mj-section background-color="#860808" padding-bottom="10px">
@@ -124,7 +129,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding-bottom="40px">
       <mj-column width="300px">
-        <mj-button width="100%" font-size="20px" font-weight="700" font-family="Arial, Helvetica, sans-serif" background-color="#860808" padding="10px 25px" href="#">Réserver une table</mj-button>
+        <mj-button width="100%" font-size="20px" font-weight="700" font-family="Arial, Helvetica, sans-serif" background-color="#860808" padding="10px 25px" color="#ffffff" href="#">Réserver une table</mj-button>
       </mj-column>
     </mj-section>
     <mj-section background-color="#3e3936" background-url="https://i.ibb.co/cbwR4XJ/fond-Matiere.jpg" background-repeat="no-repeat">
@@ -219,7 +224,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding-bottom="40px">
       <mj-column width="300px">
-        <mj-button width="100%" font-size="20px" font-weight="700" font-family="Arial, Helvetica, sans-serif" background-color="#DC695E" padding="10px 25px" href="#">Réserver une table</mj-button>
+        <mj-button width="100%" font-size="20px" font-weight="700" font-family="Arial, Helvetica, sans-serif" background-color="#DC695E" padding="10px 25px" color="#ffffff" href="#">Réserver une table</mj-button>
       </mj-column>
     </mj-section>
     <mj-section background-color="#860808">
@@ -230,6 +235,12 @@
           <div class="al">tél. 03.20.70.06.06</div>
           <div class="al">restaurant@ecosup-hotellerie.fr </div>
         </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-social align="right" css-class="al" icon-size="30px" icon-padding="0 10px 10px 10px" mode="horizontal">
+          <mj-social-element padding="0" src="https://i.ibb.co/ky1fWHP/facebook.png"></mj-social-element>
+          <mj-social-element padding="0" src="https://i.ibb.co/yV1mvjX/Instaggram.png"></mj-social-element>
+        </mj-social>
       </mj-column>
     </mj-section>
     <mj-section padding="0">
