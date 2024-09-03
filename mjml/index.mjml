@@ -14,15 +14,13 @@
     <mj-attributes>
       <mj-all font-family="Arial, Helvetica, sans-serif" font-weight="300" font-size="16px" line-height="120%" color="#626262"/>
       <mj-image border="none"/>
-      <mj-button background-color="#F45E43" color="#ffffff" font-size="14px"></mj-button>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
-      .heading{
-          padding-top: 15px;
-          text-align: center;
-          font-style: 18px;
-          font-family:"serif"
+      @media (max-width:480px){
+          .al{
+              text-align: center;
+          }
       }
     </mj-style>
   </mj-head>
@@ -32,16 +30,20 @@
         <mj-text align="center" font-size="12px" font-weight="400" line-height="16px" font-family="Arial, Helvetica, sans-serif">Si vous ne parvenez pas à lire cet email cliquez ici </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#860808">
-      <mj-column>
-        <mj-image src="https://5xgb2.img.a.d.sendibm1.com/im/sh/IfBxYM56F84m.png?u=7xwQLFBtniwQn1M7ZYUgG6RfSWbH9BT"></mj-image>
+    <mj-section background-color="#860808" padding-left="50px" padding-right="50px" padding-bottom="0">
+      <mj-column with="50%">
+        <mj-image width="200px" src="https://5xgb2.img.a.d.sendibm1.com/im/sh/IfBxYM56F84m.png?u=7xwQLFBtniwQn1M7ZYUgG6RfSWbH9BT"></mj-image>
       </mj-column>
-      <mj-column>
-        <mj-social icon-size="30px">
-          <mj-social-element src="https://i.ibb.co/ky1fWHP/facebook.png"></mj-social-element>
-          <mj-social-element src="https://i.ibb.co/yV1mvjX/Instaggram.png"></mj-social-element>
+      <mj-column width="50%">
+        <mj-social align="right" css-class="al" icon-size="30px" icon-padding="10px" mode="horizontal">
+          <mj-social-element padding="0" src="https://i.ibb.co/ky1fWHP/facebook.png"></mj-social-element>
+          <mj-social-element padding="0" src="https://i.ibb.co/yV1mvjX/Instaggram.png"></mj-social-element>
         </mj-social>
-        <mj-text font-family="Arial, Helvetica, sans-serif" font-size="19px" font-weight="700" line-height="25px" color="#ffffff" text-transform="uppercase">newsletter 106</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#860808" padding="0 50px">
+      <mj-column>
+        <mj-text css-class="al" font-family="Arial, Helvetica, sans-serif" font-size="19px" font-weight="700" line-height="25px" color="#ffffff" text-transform="uppercase">newsletter 106</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#860808" padding-bottom="10px">
@@ -223,10 +225,10 @@
     <mj-section background-color="#860808">
       <mj-column>
         <mj-text font-family="Arial, Helvetica, sans-serif" font-size="14px" font-weight="400" line-height="18px" color="#ffffff">
-          <div>17 place Charles et Albert Roussel</div>
-          <div>59200 Tourcoing</div>
-          <div>tél. 03.20.70.06.06</div>
-          <div>restaurant@ecosup-hotellerie.fr </div>
+          <div class="al">17 place Charles et Albert Roussel</div>
+          <div class="al">59200 Tourcoing</div>
+          <div class="al">tél. 03.20.70.06.06</div>
+          <div class="al">restaurant@ecosup-hotellerie.fr </div>
         </mj-text>
       </mj-column>
     </mj-section>
